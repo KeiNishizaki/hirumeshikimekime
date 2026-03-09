@@ -18,7 +18,7 @@ const StartScreen = ({ onStart }) => {
                     <h1 className="text-4xl font-black text-slate-700 tracking-tight leading-tight" style={{ fontFamily: "'Nunito', sans-serif" }}>
                         Hirumeshi<br />KimeKime
                     </h1>
-                    <p className="mt-5 text-slate-400 font-bold text-sm tracking-wide">くだらないことで、くだらない</p>
+                    <p className="mt-5 text-slate-400 font-bold text-sm tracking-wide">くだらないことで、ぐだらない</p>
                 </div>
 
                 {/* Input Area */}
