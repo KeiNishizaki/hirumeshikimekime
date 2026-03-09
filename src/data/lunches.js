@@ -2,7 +2,7 @@ export const LUNCH_OPTIONS = [
     { id: '1', name: 'ハンバーグ', icon: '🥩', type: 'meat' },
     { id: '2', name: 'カレーライス', icon: '🍛', type: 'rice' },
     { id: '3', name: 'とんかつ', icon: '🐷', type: 'meat' },
-    { id: '4', name: '焼肉', icon: '🔥', type: 'meat' },
+    { id: '4', name: '焼肉', icon: '🍖', type: 'meat' },
     { id: '5', name: 'うどん', icon: '🍜', type: 'noodle' },
     { id: '6', name: 'ラーメン', icon: '🍜', type: 'noodle' },
     { id: '7', name: 'パスタ', icon: '🍝', type: 'noodle' },
@@ -18,5 +18,5 @@ export const LUNCH_OPTIONS = [
     { id: '17', name: 'タイ料理', icon: '🌶️', type: 'asian' },
     { id: '18', name: 'サラダ・ヘルシー', icon: '🥗', type: 'healthy' },
     { id: '19', name: 'ステーキ', icon: '🥩', type: 'meat' },
-    { id: '20', name: 'そば', icon: '🥢', type: 'noodle' },
+    { id: '20', name: 'そば', icon: '', type: 'noodle' },
 ];

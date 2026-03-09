@@ -19,11 +19,11 @@ const SwipeScreen = ({ currentPlayer, totalParticipants, onRoundComplete }) => {
 
     // Transform x position to rotation and opacity for swipe effect
     const rotate = useTransform(x, [-200, 200], [-30, 30]);
-    const opacity = useTransform(x, [-200, -100, 0, 100, 200], [0, 1, 1, 1, 0]);
+    const opacity = useTransform(x, [-250, -150, 0, 150, 250], [0, 1, 1, 1, 0]);
 
     // Color indicators for swipe direction
-    const likeOpacity = useTransform(x, [0, 100], [0, 1]);
-    const nopeOpacity = useTransform(x, [-100, 0], [1, 0]);
+    const likeOpacity = useTransform(x, [0, 150], [0, 1]);
+    const nopeOpacity = useTransform(x, [-150, 0], [1, 0]);
 
     useEffect(() => {
         // Shuffle lunches and reset state when component mounts or player changes
@@ -95,7 +95,7 @@ const SwipeScreen = ({ currentPlayer, totalParticipants, onRoundComplete }) => {
     };
 
     const handleDragEnd = (_, info) => {
-        const threshold = 100;
+        const threshold = 150;
         if (info.offset.x > threshold) {
             handleVote(true); // Swiped right (Like)
         } else if (info.offset.x < -threshold) {
